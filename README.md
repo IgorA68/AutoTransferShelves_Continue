@@ -4,7 +4,7 @@ This repository contains the source code and automation scripts for the AutoTran
 
 ## 🛠 Requirements
 
-- RimWorld 1.6 (GOG version recommended)
+- RimWorld 1.6 (Steam or GOG)
 - .NET SDK 6.0+
 - Windows OS with cmd.exe and PowerShell available
 
@@ -21,7 +21,9 @@ This repository contains the source code and automation scripts for the AutoTran
 
 Open build.bat and set the correct path to your RimWorld installation:
 
-set "RIMWORLD_PATH=G:\RimWorld"
+set "RIMWORLD_PATH=drive:\path" 
+for example: 
+set "RIMWORLD_PATH=C:\Rimworld" 
 
 This path will be used both for compilation and for copying the mod to the Mods folder.
 
