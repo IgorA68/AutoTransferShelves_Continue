@@ -5,7 +5,7 @@ setlocal
 set "MOD_NAME=AutoTransferShelves"
 
 :: Целевой путь — будет заменён build.bat
-set "TARGET=C:\Users\user\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Mods\AutoTransferShelves"
+set "TARGET=C:\Users\user\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Mods\%MOD_NAME%"
 
 :: Удаляем целевую папку, если существует
 if exist "%TARGET%" (
