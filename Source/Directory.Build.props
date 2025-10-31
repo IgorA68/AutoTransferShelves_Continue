@@ -1,5 +1,5 @@
 <Project>
   <PropertyGroup>
-    <RimWorldPath>G:\RimWorld</RimWorldPath>
+    <RimWorldPath>G:\Steam\steamapps\common\RimWorld</RimWorldPath>
   </PropertyGroup>
 </Project>
