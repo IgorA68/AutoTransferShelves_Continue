@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <InputShelf.label>Входная полка</InputShelf.label>
+    <InputShelf.description>Полка, автоматически передающая предметы на связанную выходную полку.</InputShelf.description>
+    <OutputShelf.label>Выходная полка</OutputShelf.label>
+    <OutputShelf.description>Полка, принимающая предметы от связанной входной полки.</OutputShelf.description>
+</LanguageData>

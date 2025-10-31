@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <InputShelf.label>Sender Shelf</InputShelf.label>
+    <InputShelf.description>Automatically transfers stored items to a linked, powered receiver shelf. Must be linked and powered to function.</InputShelf.description>
+    <OutputShelf.label>Receiver Shelf</OutputShelf.label>
+    <OutputShelf.description>Receives items from a linked, powered sender shelf. Must be linked and powered to function.</OutputShelf.description>
+</LanguageData>

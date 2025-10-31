@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="StorageShelfBase">
+		<defName>InputShelf</defName>
+		<label>sender shelf</label>
+		<description>Automatically transfers stored items to a linked, powered receiver shelf, streamlining logistics and reducing hauling tasks. Must be linked and powered to function.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/InputShelf</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.21,1.21)</drawSize>
+		</graphicData>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<thingClass>AutoTransferShelves.Building_LinkedStorage</thingClass>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(1,1)</size>
+		<designationHotKey>Misc12</designationHotKey>
+		<building>
+			<relatedBuildCommands>
+				<li>OutputShelf</li>
+			</relatedBuildCommands>
+			<fixedStorageSettings>
+				<filter>
+					<disallowedCategories Inherit="False">
+						<!-- Explicitly remove disallowedCategories -->
+					</disallowedCategories>
+					<specialFiltersToDisallow Inherit="False">
+						<!-- Explicitly remove specialFiltersToDisallow -->
+					</specialFiltersToDisallow>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>150</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<ThingDef ParentName="StorageShelfBase">
+		<defName>OutputShelf</defName>
+		<label>receiver shelf</label>
+		<description>Receives items from a linked, powered sender shelf for efficient storage and quick access to resources. Must be linked and powered to function.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/OutputShelf</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.21,1.21)</drawSize>
+		</graphicData>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<thingClass>AutoTransferShelves.Building_LinkedStorage</thingClass>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(1,1)</size>
+		<designationHotKey>Misc12</designationHotKey>
+		<building>
+			<relatedBuildCommands>
+				<li>InputShelf</li>
+			</relatedBuildCommands>
+			<fixedStorageSettings>
+				<filter>
+					<disallowedCategories Inherit="False">
+						<!-- Explicitly remove disallowedCategories -->
+					</disallowedCategories>
+					<specialFiltersToDisallow Inherit="False">
+						<!-- Explicitly remove specialFiltersToDisallow -->
+					</specialFiltersToDisallow>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>150</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<EffecterDef>
+		<defName>CustomBlastEMPEffect</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>BlastEMP</fleckDef>
+				<burstCount>1</burstCount>
+				<scale>0.8~1.2</scale>
+				<spawnLocType>OnSource</spawnLocType>
+			</li>
+		</children>
+	</EffecterDef>
+</Defs>

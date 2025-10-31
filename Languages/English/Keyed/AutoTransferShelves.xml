@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <LinkReceiverShelf>Link output shelf</LinkReceiverShelf>
+    <UnlinkReceiverShelf>Unlink output shelf</UnlinkReceiverShelf>
+    <ToggleAutoTransfer>Auto transfer</ToggleAutoTransfer>
+    <AllowOverflow>Allow overflow</AllowOverflow>
+    <MessageLinked>Shelves are now linked and powered. Transfer is active.</MessageLinked>
+    <MessageUnlinked>Link to output shelf has been removed.</MessageUnlinked>
+    <MessageOverflowOn>Overflow mode enabled. Items will be dropped nearby when shelf is full.</MessageOverflowOn>
+    <MessageOverflowOff>Overflow mode disabled. Transfer will stop when shelf is full.</MessageOverflowOff>
+    <MessageAutoTransferOn>Auto transfer enabled.</MessageAutoTransferOn>
+    <MessageAutoTransferOff>Auto transfer disabled.</MessageAutoTransferOff>
+    <MessageTransferFailed>Transfer failed: output shelf is full.</MessageTransferFailed>
+    <MessageLinkedTo>Linked to {0}.</MessageLinkedTo>
+    <MessageNoShelfLinked>No output shelf selected.</MessageNoShelfLinked>
+    <!-- для кода -->
+    <StatusLinkedToSenderShelf>Status: Linked to a sender shelf.</StatusLinkedToSenderShelf>
+    <StatusNotLinkedToSenderShelf>Status: Not linked to any sender shelf.</StatusNotLinkedToSenderShelf>
+    <StatusLinkedToReceiverShelf>Status: Linked to a receiver shelf.</StatusLinkedToReceiverShelf>
+    <StatusNotLinkedToReceiverShelf>Status: Not linked to any receiver shelf.</StatusNotLinkedToReceiverShelf>
+    <LinkReceiverShelfLabel>Link receiver shelf</LinkReceiverShelfLabel>
+    <LinkReceiverShelfDesc>Assign a receiver shelf to transfer items to automatically.</LinkReceiverShelfDesc>
+    <UnlinkReceiverShelfLabel>Unlink receiver shelf</UnlinkReceiverShelfLabel>
+    <UnlinkReceiverShelfDesc>Unlink the currently assigned receiver shelf.</UnlinkReceiverShelfDesc>
+    <AllowOverflowLabel>Allow Overflow</AllowOverflowLabel>
+    <AllowOverflowDesc>Toggle to allow items to overflow when the receiver shelf is full.</AllowOverflowDesc>
+    <ToggleAutoTransferLabel>Toggle auto-transfer</ToggleAutoTransferLabel>
+    <ToggleAutoTransferDesc>Toggle automatic item transfer from sender to receiver shelf.</ToggleAutoTransferDesc>
+</LanguageData>

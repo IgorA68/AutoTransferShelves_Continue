@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <LinkReceiverShelf>Привязать выходную полку</LinkReceiverShelf>
+    <UnlinkReceiverShelf>Отвязать выходную полку</UnlinkReceiverShelf>
+    <ToggleAutoTransfer>Автоматическая передача</ToggleAutoTransfer>
+    <AllowOverflow>Разрешить переполнение</AllowOverflow>
+    <MessageLinked>Полки связаны и включены. Передача активна.</MessageLinked>
+    <MessageUnlinked>Связь с выходной полкой разорвана.</MessageUnlinked>
+    <MessageOverflowOn>Режим переполнения включён. Предметы будут размещаться рядом при переполнении.</MessageOverflowOn>
+    <MessageOverflowOff>Режим переполнения отключён. Передача остановится при заполнении полки.</MessageOverflowOff>
+    <MessageAutoTransferOn>Автоматическая передача включена.</MessageAutoTransferOn>
+    <MessageAutoTransferOff>Автоматическая передача отключена.</MessageAutoTransferOff>
+    <MessageTransferFailed>Передача не удалась: выходная полка заполнена.</MessageTransferFailed>
+    <MessageLinkedTo>Связано с {0}.</MessageLinkedTo>
+    <MessageNoShelfLinked>Выходная полка не выбрана.</MessageNoShelfLinked>
+    <!-- для кода -->
+    <StatusLinkedToSenderShelf>Статус: Связано с входной полкой.</StatusLinkedToSenderShelf>
+    <StatusNotLinkedToSenderShelf>Статус: Не связано с входной полкой.</StatusNotLinkedToSenderShelf>
+    <StatusLinkedToReceiverShelf>Статус: Связано с выходной полкой.</StatusLinkedToReceiverShelf>
+    <StatusNotLinkedToReceiverShelf>Статус: Не связано с выходной полкой.</StatusNotLinkedToReceiverShelf>
+    <LinkReceiverShelfLabel>Привязать выходную полку</LinkReceiverShelfLabel>
+    <LinkReceiverShelfDesc>Назначить выходную полку для автоматической передачи предметов.</LinkReceiverShelfDesc>
+    <UnlinkReceiverShelfLabel>Отвязать выходную полку</UnlinkReceiverShelfLabel>
+    <UnlinkReceiverShelfDesc>Отменить привязку текущей выходной полки.</UnlinkReceiverShelfDesc>
+    <AllowOverflowLabel>Разрешить переполнение</AllowOverflowLabel>
+    <AllowOverflowDesc>Разрешить размещение предметов рядом с полкой при её заполнении.</AllowOverflowDesc>
+    <ToggleAutoTransferLabel>Автопередача</ToggleAutoTransferLabel>
+    <ToggleAutoTransferDesc>Включить или отключить автоматическую передачу предметов.</ToggleAutoTransferDesc>
+</LanguageData>
