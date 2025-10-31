@@ -69,3 +69,5 @@ This mod includes built-in support for localization. A full Russian translation 
 - Directory.Build.props is auto-generated every time you build — no need to edit it manually
 - copy_to_mod.bat is automatically updated with the correct path — no need to hardcode anything
 - The system is designed for modular, error-free, and repeatable development
+- This mod is based on the original Auto-Transfer Shelves by SilkCircuit:  
+  https://steamcommunity.com/sharedfiles/filedetails/?id=3399298304
